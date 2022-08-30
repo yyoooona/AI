@@ -6,7 +6,6 @@ try:
     # DB 호스트 정보에 맞게 입력해주세요
     db = pymysql.connect(
         host='127.0.0.1',
-        port=3306,
         user='ssafy',
         passwd='ssafy',
         db='chatbot',
